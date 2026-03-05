@@ -107,5 +107,11 @@ You can check out the GitHub Explore website [at github.com/explore](https://git
 * [GitHub community forum](https://github.community/)
 
 # Commit it into gitbub. 
+* git clone ....
+you need to be inside the repo directory before running 
+* git add .
+* git commit -m "..."
+* git push origin main  
+
 
 
