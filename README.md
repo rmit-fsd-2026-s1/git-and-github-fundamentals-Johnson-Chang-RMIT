@@ -109,9 +109,21 @@ You can check out the GitHub Explore website [at github.com/explore](https://git
 # Commit it into gitbub. 
 * git clone ....
 you need to be inside the repo directory before running 
+* cd /path/to/git-and-github-fundamentals-Johnson-Chang-RMIT
 * git add .
 * git commit -m "..."
 * git push origin main  
 
+# Go into the repo and pull
+* git pull origin main
 
-
+# Create a new branch and pull the latest code into it
+* git checkout -b review-updates
+pull it down to new branch
+* git pull origin main
+if everything looks good, switch to the "main" branch, merge into main
+* git checkout main 
+* git merge review-updates
+push then delete the review branch
+* git push origin main
+* git branch -d review-updates
